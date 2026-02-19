@@ -20,5 +20,7 @@ et pour le character
 local character = Player.Character or Player.CharacterAdded:Wait()
 ```
 
+> [!WARNING]
+> `Les codes lua sont sensibles a la case!!`
 
 
