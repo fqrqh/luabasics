@@ -8,4 +8,8 @@ Pour avoir accès au Player vous devez tout simplement chargé le modules suivan
 
 ```bash
 local Players = game:GetService("Players")
+```
+
+
+
 
