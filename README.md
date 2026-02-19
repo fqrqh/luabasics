@@ -1,12 +1,13 @@
 # luabasics
 A Little documentation to help you with lua
-# Mon super projet
 
-Description rapide de ce que fait ce projet.
 
-## Exemple
 
-Voici comment utiliser ce projet :
+
+# 1.Modules
+
+First off there the modules :
+
 
 ```bash
 npm install
