@@ -23,7 +23,7 @@ local character = Player.Character or Player.CharacterAdded:Wait()
 > [!WARNING]
 > `Les codes lua sont sensibles a la case!!`
 > ce qui signifie que le language distingue les Maj et les miniscules.
-
+# 2. Services
 Pour charger tous les services et modules, vous pouvez utiliser ce script dès le début de votre script : 
 
 ```bash
