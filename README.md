@@ -27,15 +27,12 @@ local character = Player.Character or Player.CharacterAdded:Wait()
 Pour charger tous les services et modules, vous pouvez utiliser ce script dès le début de votre script : 
 
 ```bash
-local Players = game:GetService("Players") -- LES JOUEURS --
+local Players = game:GetService("Players")
 
-local Player = Players.LocalPlayer -- LE PLAYER EN LOCAL --
-
-local Humanoid = Player:WaitForChild("Humanoid") -- CENTRE DU PLAYER --
-local character = Player.Character or Player.CharacterAdded:Wait() -- LE CHARACTER --
-
-local PlayerGui = Player:WaitForChild("PlayerGui") -- L'UI EN LOCAL --
--- LES SERVICES DE BASE --
+local Player = Players.LocalPlayer
+local Humanoid = Player:WaitForChild("Humanoid")
+local character = Player.Character or Player.CharacterAdded:Wait()
+local PlayerGui = Player:WaitForChild("PlayerGui")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local ServerStorage = game:GetService("ServerStorage")
 local ServerScriptService = game:GetService("ServerScriptService")
@@ -46,11 +43,11 @@ local StarterPack = game:GetService("StarterPack")
 local StarterPlayer = game:GetService("StarterPlayer")
 local SoundService = game:GetService("SoundService")
 local Chat = game:GetService("Chat")
-local Camera = workspace:WaitForChild("Camera")
 local TextService = game:GetService("TextService")
--- LES SERVICES DE BASE --
+local uis = game:GetService("UserInputService")
+local Camera = workspace:WaitForChild("Camera")
+local TweenService = game:GetService("TweenService")
 
-local uis = game:GetService("UserInputService") -- POUR CONTROLER LES INPUT DU/DES Players --
 ```
 
 
