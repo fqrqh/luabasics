@@ -1,14 +1,11 @@
-# luabasics
-A Little documentation to help you with lua
+# luabasic
 
+Une Documentation Personnalisée pour apprendre le Lua!
 
+# 1. Player
 
-
-# 1.Modules
-
-First off there the modules :
-
+Pour avoir accès au Player vous devez tout simplement chargé le modules suivant :
 
 ```bash
-npm install
-npm start
+local Players = game:GetService("Players")
+
