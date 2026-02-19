@@ -22,5 +22,6 @@ local character = Player.Character or Player.CharacterAdded:Wait()
 
 > [!WARNING]
 > `Les codes lua sont sensibles a la case!!`
+> ce qui signifie que le language distingue les Maj et les miniscules
 
 
